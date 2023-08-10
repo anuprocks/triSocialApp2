@@ -2,7 +2,10 @@
 
 # The `functions` section controls whether or not functions are enabled for the site.
 [functions]
-external_node_modules = [
+
+  # The `render` section specifies the configuration for the Render functions.
+  [functions.render]
+  external_node_modules = [
     "module-one",
     "module-two"
   ]
