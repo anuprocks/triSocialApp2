@@ -120,7 +120,7 @@ import {
   
           <FlexBetween gap="1rem" mb="0.5rem">
             <FlexBetween gap="1rem">
-              <a href="https://twitter.com/your_twitter_handle" target="_blank">
+              <a href="https://twitter.com/your_twitter_handle" target="_blank" rel="noreferrer">
                 <img src="../assets/twitter.png" alt="twitter" />
                 <Typography>Twitter</Typography>
               </a>
@@ -136,7 +136,8 @@ import {
   
           <FlexBetween gap="1rem">
             <FlexBetween gap="1rem">
-              <a href="https://www.linkedin.com/in/anup-deka-a61a56217/" target="_blank">
+            a href={linkUrl} target="_blank" rel="noreferrer"
+              <a href="https://www.linkedin.com/in/anup-deka-a61a56217/" target="_blank" rel="noreferrer">
                 <img src="../assets/linkedin.png" alt="linkedin" />
                 <Typography>LinkedIn</Typography>
               </a>
