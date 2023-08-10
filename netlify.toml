@@ -1,0 +1,7 @@
+# This file defines the configuration for Netlify.
+
+# The `functions` section controls whether or not functions are enabled for the site.
+functions = true
+
+# The `render` property specifies the URL of the Render endpoint.
+render = "https://trisocialapp.onrender.com"

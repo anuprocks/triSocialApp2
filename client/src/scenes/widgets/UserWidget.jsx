@@ -136,7 +136,6 @@ import {
   
           <FlexBetween gap="1rem">
             <FlexBetween gap="1rem">
-            a href={linkUrl} target="_blank" rel="noreferrer"
               <a href="https://www.linkedin.com/in/anup-deka-a61a56217/" target="_blank" rel="noreferrer">
                 <img src="../assets/linkedin.png" alt="linkedin" />
                 <Typography>LinkedIn</Typography>
